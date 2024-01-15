@@ -1,0 +1,76 @@
+.related {
+  padding: 10px;
+}
+.related div.related-posts {
+  gap: 50px;
+  justify-content: space-around;
+}
+.related .post-box {
+  width: 250px;
+  -webkit-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.46);
+  border-radius: 10px;
+}
+div.related header div.row img {
+  width: 30px;
+}
+.related .post-box .post-content {
+    padding: 0 6px 10px 0;
+}
+.related .post-box .post-content .post-excerpt {
+  line-height: 1.6;
+  height: 40px;
+  overflow: hidden;
+}
+.related .post-box .post-image {
+  width: 250px;
+  height: 250px;
+}
+
+.related .post-box .post-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+.related .post-box .post-more {
+  font-weight: bold;
+}
+.related .post-box .post-more a {
+  color: var(--lightBlue);
+}
+.related .post-box .post-more a:hover {
+  color: var(--darkBlue);
+  transition: all 0.3s;
+}
+/*
+* RESPONSIVE
+*/
+@media screen and (max-width: 1366px) {
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 900px) {
+  .related div.related-posts{
+    flex-wrap: wrap;
+  }
+  div.single-post article main{
+    flex-direction: column;
+  }
+  div.single-post article main div.entry-content-right,
+  div.single-post article main div.entry-content-left {
+    max-width: 100% !important;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 560px) {
+  div ol.comment-list .comment-meta {
+    text-align: right;
+    position: relative;
+    top: 0px;
+    margin: 20px 0;
+  }
+}

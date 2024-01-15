@@ -1,0 +1,442 @@
+section.service {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+section.service h3.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 220%;
+}
+div.card {
+  width: 250px;
+}
+div.card a.service1 {
+  background-color: var(--lightBlue);
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: var(--white);
+}
+div.card a.service1::after {
+  content: url(../images/icons/tooth-icon.svg);
+  display: inline-block;
+  /* width: 23px; */
+  height: 17px;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+div.card > p {
+  text-align: center;
+  line-height: 1.4;
+}
+section.introduce {
+  background-color: var(--background);
+}
+.introduce-tabs {
+  gap: 100px;
+  padding: 40px 0;
+}
+
+section.introduce div.image img {
+  width: 400px;
+  height: auto;
+}
+h3.title {
+  font-size: 180%;
+}
+section.introduce div.details {
+  max-width: 600px;
+}
+section.introducediv.introduce-details {
+  width: 70%;
+}
+div.introduce-details p {
+  line-height: 1.8;
+}
+section.faq {
+  padding: 40px 100px;
+  background: rgb(142, 211, 224);
+  background: linear-gradient(
+    257deg,
+    rgba(142, 211, 224, 1) 0%,
+    rgba(173, 224, 235, 1) 44%,
+    rgba(202, 228, 233, 1) 100%
+  );
+}
+section.faq .faq-list {
+  justify-content: space-around;
+}
+section.faq div.faq-question {
+  width: 40%;
+  padding: 20px;
+  border-radius: 10px;
+}
+section.faq div.faq-question details {
+  background: var(--white);
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+section.faq div.faq-question details summary {
+  padding: 16px 10px;
+}
+section.faq div.faq-question details summary::marker {
+  content: "";
+}
+section.faq div.faq-question details[open] > summary::before {
+  content: url(../images/icons/chevron-down.svg);
+}
+section.faq div.faq-question details summary::before {
+  content: url(../images/icons/chevron-left.svg);
+  display: inline-block;
+  vertical-align: -3px;
+  width: 20px;
+  height: 0px;
+}
+section.faq div.faq-question details p {
+  padding: 10px 10px;
+}
+section.faq div.reservation {
+  width: 40%;
+  background-color: var(--background);
+  padding: 20px;
+  border-radius: 10px;
+}
+form .re-form {
+  display: flex;
+  gap: 20px;
+}
+form p {
+  margin-bottom: 10px;
+}
+form p input {
+  border: 1px solid var(--copyright);
+  border-radius: 7px;
+  padding: 9px;
+  width: 100%;
+  box-sizing: border-box;
+}
+form p textarea {
+  resize: none;
+  border: 1px solid var(--copyright);
+  border-radius: 7px;
+  padding: 9px;
+  width: 100%;
+  height: 120px;
+  box-sizing: border-box;
+}
+.wpcf7 input[type="tel"] {
+  direction: rtl;
+}
+form p input[type="submit"] {
+  background-color: var(--background);
+  border: 1px solid var(--darkBlue);
+  font-weight: bold;
+  color: var(--darkBlue);
+  padding: 14px;
+}
+section.more {
+  background-color: var(--background);
+  padding: 40px 0;
+}
+section.more div.more-main {
+  gap: 100px;
+}
+section.more div.more-main div.more-right {
+  width: 40%;
+}
+section.more div.more-main div.more-right div.details p {
+  line-height: 1.9;
+}
+section.more div.more-main div.more-left {
+  width: 40%;
+}
+section.more div.more-main div.more-left .row {
+  flex-wrap: wrap;
+}
+section.more div.card img {
+  width: 100px;
+}
+section.portfolio {
+  padding: 40px 0;
+}
+section.portfolio h3.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 220%;
+}
+section.portfolio .parent {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 3px;
+}
+
+section.portfolio .div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+section.portfolio .div2 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+section.portfolio .div3 {
+  grid-area: 1 / 2 / 3 / 4;
+}
+section.portfolio .div4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+section.portfolio .div5 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+section.portfolio .div6 {
+  grid-area: 1 / 5 / 2 / 6;
+}
+section.portfolio .div7 {
+  grid-area: 2 / 5 / 3 / 6;
+}
+section.portfolio .parent img {
+  width: 100%;
+  border-radius: 15px;
+}
+section.consultation {
+  padding: 40px 0;
+  background: rgb(1, 189, 238);
+  background: linear-gradient(257deg, rgba(1, 189, 238, 1) 0%, rgba(88, 197, 235, 1) 44%, rgba(173, 220, 238, 1) 100%);
+}
+section.consultation .consultation-main {
+  gap: 100px;
+}
+section.consultation .consultation-right {
+  width: 40%;
+  padding: 20px;
+  border-radius: 10px;
+}
+section.consultation .consultation-left {
+  width: 40%;
+  background-color: var(--background);
+  padding: 20px;
+  border-radius: 10px;
+}
+div.consultation-right div.title {
+  position: relative;
+  width: fit-content;
+}
+div.consultation-right div.title img.title {
+  position: absolute;
+  top: -27px;
+  left: -38px;
+  width: 50px;
+}
+div.consultation-right h3.title {
+  color: var(--white);
+  font-size: 150%;
+  background-color: #ffffff70;
+  display: inline-block;
+  width: fit-content;
+  padding: 11px;
+  border-radius: 9px;
+}
+div.consultation-right div.details p {
+  line-height: 2;
+  color: var(--white);
+}
+div.consultation-right div.point {
+  width: 100%;
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+div.consultation-button {
+  display: flex;
+  width: 200px;
+}
+div.consultation-button span {
+  display: inline-block;
+  background-color: var(--lightBlue);
+  /* background: url(../images/icons/clock.svg); */
+  width: 40px;
+  height: 40px;
+  padding: 5px 6px 4px 4px;
+  border-radius: 0 5px 5px 0;
+}
+div.consultation-button span img {
+  width: 29px;
+  height: 29px;
+}
+div.consultation-button button {
+  border-radius: 5px 0 0 5px;
+  border: 1px solid var(--lightBlue);
+  color: var(--lightBlue);
+  width: 100%;
+}
+section.comments {
+  padding: 40px 0;
+}
+section.comments h3.title {
+  text-align: center;
+}
+div.comments-main {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+div.comments-main div.comment {
+  width: 400px;
+  border-top: 8px solid var(--lightBlue);
+  border-bottom: 8px solid var(--lightBlue);
+  border-radius: 24px;
+  padding: 10px;
+}
+div.comments-main div.comment.column > div.row {
+  justify-content: space-between;
+  align-items: center;
+}
+div.comments-main div.patient-name {
+  align-items: center;
+}
+div.comments-main div.patient-name img.patient {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+div.comments-main div.comment div.separator-line {
+  margin: 15px 0;
+}
+div.comments-main div.comment div.details p {
+  line-height: 1.7;
+}
+div.comments-main div.patient-name h6.name {
+  font-weight: bold;
+  font-size: 110%;
+}
+div.comments-main div.comment div.column p.title {
+  text-align: left;
+  color: var(--darkBlue);
+}
+section.service div.service-box {
+  flex-wrap: wrap;
+}
+/*
+* RESPONSIVE
+*/
+@media screen and (max-width: 1366px) {
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 900px) {
+  section.service div.service-box {
+    justify-content: center;
+    gap: 20px;
+  }
+  section.introduce div.introduce-tabs {
+    padding: 20px 10px;
+    gap: 20px;
+  }
+  section.faq {
+    padding: 20px 0px;
+  }
+  section.faq .faq-list {
+    justify-content: space-between;
+  }
+  section.faq div.faq-question,
+  section.faq div.reservation {
+    width: 50%;
+  }
+  div.card {
+    width: 160px;
+  }
+  div.card a.btn {
+    margin: 0;
+  }
+  section.more div.more-main div.more-left,
+  section.more div.more-main div.more-right {
+    width: 50%;
+  }
+  section.more div.more-main div.more-left .row {
+    justify-content: center;
+    column-gap: 10px;
+  }
+  section.consultation .consultation-main {
+    gap: 20px;
+    justify-content: space-between;
+  }
+  section.consultation .consultation-left {
+    width: 50%;
+  }
+  section.consultation .consultation-right {
+    width: 50%;
+    padding: 0px;
+  }
+  div.comments-main {
+    justify-content: center;
+    column-gap: 10px;
+  }
+  div.comments-main div.comment {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  section.introduce div.introduce-tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+  section.introduce div.image {
+    order: 2;
+  }
+  section.introduce div.image img {
+    width: 100%;
+  }
+  section.faq .faq-list {
+    flex-direction: column;
+  }
+  section.faq div.faq-question,
+  section.faq div.reservation {
+    width: 100%;
+  }
+  section.faq div.faq-question {
+    padding: 0%;
+  }
+  section.more div.more-main {
+    flex-direction: column;
+  }
+  section.more div.more-main div.more-left,
+  section.more div.more-main div.more-right {
+    width: 100%;
+  }
+  section.consultation .consultation-main {
+    flex-direction: column;
+  }
+  section.consultation .consultation-left {
+    width: 100%;
+  }
+  section.consultation .consultation-right {
+    width: 100%;
+    padding: 0px;
+  }
+  div.consultation-right div.point {
+    column-gap: 10px;
+  }
+  div.consultation-button {
+    width: 48%;
+    margin-bottom: 20px !important;
+  }
+}
+@media screen and (max-width: 560px) {
+  form .re-form {
+    flex-direction: column;
+  }
+  div.consultation-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,125 @@
+section.about-us {
+  padding: 50px 10px;
+}
+section.about-us div.section-one {
+  justify-content: space-between;
+}
+section.about-us div.section-one > div.column {
+  width: 50%;
+}
+section.about-us div.section-one > div.column img {
+  width: 35px;
+}
+section.about-us div.section-one > div.column h3.title {
+  font-size: 150%;
+}
+section.about-us div.section-one > div.image {
+  width: 35%;
+}
+section.about-us div.section-one > div.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+section.about-us p.text {
+  line-height: 2;
+  font-size: 125%;
+}
+section.about-us div.section-three,
+section.about-us div.section-two {
+  padding: 100px 0 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+section.about-us div.section-three div.image,
+section.about-us div.section-two div.image {
+  width: 250px;
+  height: 250px;
+}
+section.about-us div.section-three div.details,
+section.about-us div.section-two div.details {
+  width: 40%;
+}
+section.about-us div.section-three div.details h3,
+section.about-us div.section-two div.details h3 {
+  font-size: 150%;
+}
+section.about-us div.section-three div.image img,
+section.about-us div.section-two div.image img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 10px;
+}
+section.about-us div.staffs > div > img {
+  width: 40px;
+}
+section.about-us div.staffs h3.title {
+  font-size: 150%;
+  text-align: center;
+}
+div.staffs div.cards.row {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+div.staffs div.cards.row div.card.column {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 2px 4px 17px -3px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 17px -3px rgba(0, 0, 0, 0.2);
+}
+div.staffs div.cards.row div.card.column img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+div.staffs div.cards.row div.card.column p.name {
+  line-height: 3;
+  font-weight: bold;
+  font-size: 110%;
+}
+div.staffs div.cards.row div.card.column p.position {
+  line-height: 1;
+  /* font-weight: bold; */
+  font-size: 110%;
+}
+div.staffs div.semi-circle-bottom,
+div.staffs div.semi-circle-top {
+  --semi-circle-border: 60px;
+}
+/*
+* RESPONSIVE
+*/
+@media screen and (max-width: 1366px) {
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 900px) {
+  section.about-us div.section-one,
+  section.about-us div.section-three,
+  section.about-us div.section-two {
+    flex-direction: column;
+  }
+  section.about-us div.section-one > div.column,
+  section.about-us div.section-one > div.image,
+  section.about-us div.section-three div.details,
+  section.about-us div.section-two div.details {
+    width: 100%;
+  }
+  section.about-us div.section-three div.image, section.about-us div.section-two div.image{
+    order: 2;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 560px) {
+}

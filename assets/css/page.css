@@ -1,0 +1,118 @@
+.archive {
+  padding: 50px 10px;
+  column-gap: 2%;
+}
+.archive .category-list {
+  max-width: 20%;
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  background-color: var(--copyright);
+  border-radius: 10px;
+}
+.archive .category-list a {
+  background-color: var(--white);
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.archive .category-list a > span {
+  --semi-circle: 36px;
+  --semi-circle-border: 6px;
+}
+.archive .category-list a:last-child {
+  margin-bottom: 0%;
+}
+.archive .categorys {
+  max-width: 80%;
+  width: 100%;
+}
+.archive .post {
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.archive .post .entry-header {
+  border: 1px solid var(--copyright);
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.2);
+}
+.archive .post .entry-header > * {
+  margin-bottom: 15px;
+}
+.archive .post .entry-header a {
+  margin-bottom: 0%;
+  color: var(--lightBlue);
+  padding: 4px 0;
+  display: inline-block;
+}
+.archive .post .entry-header div.details {
+  justify-content: space-between;
+  align-items: center;
+  min-height: 34px;
+}
+.archive .post .entry-header h2.entry-title {
+  font-size: 120%;
+}
+.archive .post .entry-header span.line-gray {
+  border: 1px solid #e1e1e1;
+  width: 100%;
+  height: 2px;
+  display: block;
+}
+.archive .post .entry-header a:hover {
+  color: var(--darkBlue);
+  transition: 0.3s;
+}
+.archive .post .entry-header .image {
+  width: 280px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.archive .post .entry-header .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+div.archive div.categorys div.ads {
+  margin: 20px 0 0;
+}
+div.archive div.categorys div.ads img {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 5px 5px 55px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.3);
+}
+/*
+* RESPONSIVE
+*/
+@media screen and (max-width: 1366px) {
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 900px) {
+  .archive{
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .archive .categorys {
+    max-width: 100%;
+    width: 100%;
+  }
+  .archive .category-list{
+    display: none;
+  }
+  .archive .post {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 560px) {
+}
